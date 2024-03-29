@@ -1,0 +1,40 @@
+.navlist {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+.navlist li {
+  position: relative;
+  padding: 10px 0;
+}
+
+.navlist li a {
+  position: relative;
+  font-family: "Cormorant" !important;
+  text-decoration: none;
+  color: #efefef;
+  font-size: 3svw;
+}
+
+.navlist li a::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 100%;
+  background: rgba(138, 198, 222, 0.5);
+  top: 0;
+  left: 0;
+  transition: 0.4s all ease-in-out;
+  -webkit-transition: 0.4s all ease-in-out;
+}
+
+.navlist li:hover a::after {
+  width: 100%;
+}
+
+.navlist li a.active {
+}
+.navlistitem {
+  color: #fff;
+}

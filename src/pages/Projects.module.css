@@ -1,0 +1,27 @@
+.projectinfobox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  background-color: rgba(67, 67, 116, 0.8);
+  animation: opensingle 0.7s ease-in-out forwards;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.projectinfobox::-webkit-scrollbar {
+  border-radius: 25px;
+  background-color: rgba(9, 9, 26, 0.8);
+}
+
+@keyframes opensingle {
+  from {
+    width: 0;
+    height: 0;
+  }
+  to {
+    width: 100%;
+    height: 100%;
+  }
+}

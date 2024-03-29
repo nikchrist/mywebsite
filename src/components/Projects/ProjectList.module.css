@@ -1,0 +1,12 @@
+.projectsWrapper {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
+  align-items: center;
+}
+
+.projectWrapper {
+  position: relative;
+  margin-right: 50px;
+  text-align: center;
+}

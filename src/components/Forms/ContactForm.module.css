@@ -1,0 +1,204 @@
+.ctnForm {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  margin: 4svh auto;
+}
+
+.formgrid {
+  position: relative;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.formgridItem {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  z-index: 9999;
+  justify-content: center;
+  align-items: center;
+}
+
+.formgridItem label {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.formgridItem input[type="text"],
+.formgridItem input[type="email"],
+.formgridItem textarea {
+  width: 100%;
+}
+
+.formgridItem input {
+  padding: 30px;
+  font-size: 1.3rem;
+  border: 0;
+  border-radius: 25px;
+  background: #446178;
+  color: #fff;
+}
+
+.formgridItem textarea {
+  background: #446178;
+  color: #fff;
+  transition: 0.4s all ease-in-out;
+  -webkit-transition: 0.4s all ease-in-out;
+}
+
+.formgridItem textarea:focus {
+  background: #020e18;
+  border: none;
+}
+
+.formgridItem input:focus {
+  border: none;
+  animation: inputpadding 0.7s ease-in-out;
+  background-color: #020e18;
+}
+
+.formgridItem input:-webkit-autofill,
+.formgridItem input:-webkit-autofill:focus {
+  background-color: #223c52;
+  color: #475561;
+}
+
+@keyframes inputpadding {
+  from {
+    padding: 0px;
+  }
+  to {
+    padding: 30px;
+  }
+}
+
+.formrow {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  z-index: 9999;
+}
+
+.textarea {
+  position: relative;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.submitbtn {
+  width: 20%;
+  margin: 0 auto;
+}
+
+.show {
+  animation: 0.7s ease-in-out scale-in forwards;
+}
+
+.hide {
+  display: none;
+}
+
+.buttons {
+  position: relative;
+  display: flex;
+  margin-top: 1vh;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 50%;
+  margin: 3vh auto;
+  height: auto;
+}
+
+.buttons button {
+  position: relative;
+  padding: 20px 10px;
+  border: double 3px #020e18;
+  font-size: 20px;
+  background: transparent;
+  cursor: pointer;
+  transition: 0.4s all ease-in-out;
+  -webkit-transition: 0.4s all ease-in-out;
+}
+
+.buttons button:hover {
+  background-color: #020e18;
+  color: #fff;
+}
+
+.buttons button:first-child {
+  opacity: 0;
+  animation: 0.7s left-right ease-in-out forwards;
+  animation-delay: 0.3s;
+}
+
+.buttons button:last-child {
+  opacity: 0;
+  animation: 0.7s right-left ease-in-out forwards;
+  animation-delay: 0.3s;
+}
+
+@keyframes left-right {
+  from {
+    left: -20%;
+    opacity: 0;
+  }
+  to {
+    left: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes right-left {
+  from {
+    left: 20%;
+    opacity: 0;
+  }
+  to {
+    left: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes scale-in {
+  from {
+    transform: scale(0.1, 0.1);
+  }
+  to {
+    transform: scale(1, 1);
+  }
+}
+
+.submitbtn {
+  position: relative;
+  padding: 50px;
+  font-size: 20px;
+  background: #020e18;
+  border: 3px double #fff;
+  color: #fff;
+  box-sizing: border-box;
+  width: 20%;
+  height: 20%;
+  display: inline-block;
+  border-radius: 25px;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.4s all ease-in-out;
+  -webkit-transition: 0.4s all ease-in-out;
+}
+
+.submitbtn:hover {
+  background: transparent;
+  color: #475561;
+  text-shadow: 1px 1px 30px #000;
+  font-weight: bold;
+  padding: 50px;
+  text-decoration: underline;
+}
+
+.disabled {
+  pointer-events: none;
+  opacity: 0.5 !important;
+}

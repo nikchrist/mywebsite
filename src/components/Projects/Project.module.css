@@ -1,0 +1,50 @@
+.url {
+  position: absolute;
+  top: 50px;
+  left: -20px;
+  padding: 30px 10px;
+  font-size: 20px;
+  text-decoration: none;
+  border-radius: 50%;
+  background: rgb(0, 66, 128);
+  box-shadow: 1px 1px 20px #000;
+}
+
+.url a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.projectarchivebtn {
+  background: none;
+  font-size: 20px;
+  font-weight: 300;
+  margin-top: 40px;
+  border-radius: 50%;
+  padding: 30px 10px;
+  border: double 6px #658299;
+  color: #658299;
+  cursor: pointer;
+  transition: 0.4s all ease-in-out;
+  -webkit-transition: 0.4s all ease-in-out;
+  transform: scale(0.1, 0.1);
+  opacity: 0;
+  animation: 0.7s ease-in-out projectbtnanim forwards;
+  animation-delay: 1s;
+}
+
+.projectarchivebtn:hover {
+  background: #658299;
+  color: #fff;
+}
+
+@keyframes projectbtnanim {
+  from {
+    transform: scale(0.1, 0.1);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1, 1);
+    opacity: 1;
+  }
+}

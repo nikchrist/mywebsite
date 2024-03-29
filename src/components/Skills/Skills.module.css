@@ -1,0 +1,9 @@
+.skillWrapper {
+  position: relative;
+  width: 100%;
+}
+
+.skillWrapper ul {
+  display: block;
+  list-style: none;
+}
