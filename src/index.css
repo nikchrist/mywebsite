@@ -1,15 +1,13 @@
 @font-face {
   font-family: "Manrope";
   src: local("Manrope-Light"),
-    url("https://nikchristwebsite.netlify.app/fonts/Manrope-Light.ttf")
-      format("truetype");
+    url("./fonts/Manrope-Light.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Cormorant";
   src: local("Cormorant-Light"),
-    url("https://nikchristwebsite.netlify.app/fonts/Cormorant-Light.ttf")
-      format("truetype");
+    url("./fonts/Cormorant-Light.ttf") format("truetype");
 }
 
 * {

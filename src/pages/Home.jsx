@@ -45,6 +45,7 @@ function Home() {
               <Skill type={"react"} progress={50} />
               <Skill type={"mysql"} progress={70} />
               <Skill type={"wordpress"} progress={90} />
+              <Skill type={"opencart"} progress={60} />
             </Skills>
           </div>
         </section>

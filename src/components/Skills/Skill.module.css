@@ -13,8 +13,6 @@
   position: relative;
   opacity: 1;
   transform: scale(0.1, 0.1);
-  /* animation: skilltitle-fade-in 0.7s forwards;
-  animation-delay: 1s; */
 }
 
 @keyframes skilltitle-fade-in {
@@ -35,45 +33,17 @@
   animation: 0.7s html-left-to-right ease-in-out forwards;
 }
 
-/* @keyframes html-left-to-right {
-  from {
-    width: 0%;
-  }
-  to {
-    width: 90%;
-  }
-} */
-
 .css {
   position: relative;
   width: 0%;
   background: #254bdd;
   animation: 0.7s css-left-to-right ease-in-out forwards;
 }
-
-/* @keyframes css-left-to-right {
-  from {
-    width: 0%;
-  }
-  to {
-    width: 90%;
-  }
-} */
-
 .php {
   width: 0%;
   background: #4d588e;
   animation: 0.7s php-left-to-right ease-in-out forwards;
 }
-
-/*  @keyframes php-left-to-right {
-  from {
-    width: 0%;
-  }
-  to {
-    width: 70%;
-  }
-} */
 
 .mysql {
   width: 0%;
@@ -81,29 +51,11 @@
   animation: 0.7s mysql-left-to-right ease-in-out forwards;
 }
 
-/* @keyframes mysql-left-to-right {
-  from {
-    width: 0%;
-  }
-  to {
-    width: 70%;
-  }
-} */
-
 .javascript {
   width: 0%;
   background: #efd81d;
   animation: 0.7s js-left-to-right ease-in-out forwards;
 }
-
-/* @keyframes js-left-to-right {
-  from {
-    width: 0%;
-  }
-  to {
-    width: 50%;
-  }
-} */
 
 .react {
   width: 0%;
@@ -111,26 +63,14 @@
   animation: 0.7s react-left-to-right ease-in-out forwards;
 }
 
-/* @keyframes react-left-to-right {
-  from {
-    width: 0%;
-  }
-  to {
-    width: 50%;
-  }
-} */
-
 .wordpress {
   width: 0%;
   background: #30353a;
   animation: 0.7s wordpress-left-to-right ease-in-out forwards;
 }
 
-/* @keyframes wordpress-left-to-right {
-  from {
-    width: 0%;
-  }
-  to {
-    width: 90%;
-  }
-} */
+.opencart {
+  width: 0%;
+  background: #32c1ed;
+  animation: 0.7s opencart-left-to-right ease-in-out forwards;
+}

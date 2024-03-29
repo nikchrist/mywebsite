@@ -43,7 +43,7 @@ function ProjectsFilterNav({ setCurrentPrjCat, currentPrjCat, type }) {
             navigate("/projects/" + e.target.id);
           }}
         >
-          Opencart
+          OPENCART
         </button>
       </div>
     </div>

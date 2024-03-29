@@ -93,7 +93,7 @@ function Project({ project, setInfoOpen }) {
           }}
           className={styles.projectarchivebtn}
         >
-          SHOW MORE
+          LEARN MORE
         </button>
       </div>
     </React.Fragment>
