@@ -26,3 +26,9 @@
     background-position: -200% center;
   }
 }
+
+@media (max-width: 767px) {
+  .subtitle {
+    font-size: 14px;
+  }
+}

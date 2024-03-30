@@ -12,7 +12,7 @@
       format("truetype");
 }
 
-/*@font-face {
+/* @font-face {
   font-family: "Manrope";
   src: local("Manrope-Light"),
     url("./fonts/Manrope-Light.ttf") format("truetype");
@@ -234,7 +234,12 @@ a {
   }
 }
 /* Mobile */
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 767px) {
+  .toggleNavButton {
+    color: #fff;
+    padding-bottom: 10px;
+    cursor: pointer;
+  }
   main {
     grid-template-columns: auto;
     height: auto;
@@ -243,5 +248,17 @@ a {
   html,
   body {
     overflow-y: scroll;
+    width: 100%;
+  }
+
+  header {
+    height: auto;
+  }
+  .pagetitles {
+    font-size: 20px;
+  }
+
+  footer {
+    text-align: center;
   }
 }

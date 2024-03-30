@@ -74,3 +74,10 @@
   background: #32c1ed;
   animation: 0.7s opencart-left-to-right ease-in-out forwards;
 }
+
+@media (max-width: 776px) {
+  .skill {
+    padding: 10px 4px;
+    font-size: 14px;
+  }
+}

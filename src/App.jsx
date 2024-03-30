@@ -1,5 +1,6 @@
 import React, { useCallback } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import DefaultDevice, { Mobile, Desktop } from "./components/Devices";
 import MainNav from "./components/Navigations/MainNav";
 import Home from "./pages/Home";
 import Contact from "./pages/Contact";
@@ -9,6 +10,7 @@ import Particles from "react-particles";
 import { loadSlim } from "tsparticles-slim";
 import Footer from "./components/Footer";
 import Single from "./components/Projects/Single";
+import MobileMainNav from "./components/Navigations/MobileMainNav";
 function App() {
   const particlesInit = useCallback(async function (engine) {
     console.log(engine);
@@ -98,8 +100,15 @@ function App() {
       <main className="grid grid-cols-12 md:grid-cols-12 z-200">
         <header className="col-span-12 md:col-span-3">
           <Logo />
-          <MainNav />
-          <Footer />
+          <Mobile>
+            <MobileMainNav />
+          </Mobile>
+          <DefaultDevice>
+            <MainNav />
+          </DefaultDevice>
+          <DefaultDevice>
+            <Footer />
+          </DefaultDevice>
         </header>
         <div className="content col-span-12 md:col-span-9">
           <Routes>
@@ -111,6 +120,9 @@ function App() {
             </Route>
           </Routes>
         </div>
+        <Mobile>
+          <Footer backColor={"#658299"} margTop={"0"} />
+        </Mobile>
       </main>
     </BrowserRouter>
   );

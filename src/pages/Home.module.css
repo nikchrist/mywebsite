@@ -123,3 +123,22 @@ section.skills {
     filter: blur(0);
   }
 }
+
+@media (max-width: 767px) {
+  section.skills {
+    display: block;
+  }
+
+  .shortbio {
+    padding: 20px;
+  }
+
+  .shortbio::before,
+  .shortbio::after {
+    content: none;
+  }
+
+  .pagetitlesWrapper h2 {
+    font-size: 32px;
+  }
+}
