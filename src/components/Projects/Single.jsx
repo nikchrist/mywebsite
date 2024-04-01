@@ -23,7 +23,10 @@ function Single({ projects, setInfoOpen }) {
           <img src={image} alt={title} />
         </div>
         <div className={styles.singlecontentWrapper}>
-          <NavLink to={category}>{category}</NavLink>
+          <span style={{ color: "#fff" }}>Cat: </span>
+          <NavLink to={category} target="_blank" style={{ color: "#fff" }}>
+            {category}
+          </NavLink>
           <div className={styles.singlecontent}>{content}</div>
         </div>
         <div className={styles.gotoproject}>

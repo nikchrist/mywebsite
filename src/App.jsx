@@ -1,26 +1,26 @@
-import React, { useCallback } from "react";
+import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import DefaultDevice, { Mobile, Desktop } from "./components/Devices";
+import DefaultDevice, { Mobile } from "./components/Devices";
 import MainNav from "./components/Navigations/MainNav";
 import Home from "./pages/Home";
 import Contact from "./pages/Contact";
 import Projects from "./pages/Projects";
 import Logo from "./components/Logo";
-import Particles from "react-particles";
-import { loadSlim } from "tsparticles-slim";
+//import Particles from "react-particles";
+//import { loadSlim } from "tsparticles-slim";
 import Footer from "./components/Footer";
 import Single from "./components/Projects/Single";
 import MobileMainNav from "./components/Navigations/MobileMainNav";
 import { SocialIcon } from "react-social-icons";
 function App() {
-  const particlesInit = useCallback(async function (engine) {
+  /* const particlesInit = useCallback(async function (engine) {
     console.log(engine);
     await loadSlim(engine);
   }, []);
 
   const particlesLoaded = useCallback(async function (container) {
     await console.log(container);
-  }, []);
+  }, []); */
   return (
     <BrowserRouter>
       {/* <Particles

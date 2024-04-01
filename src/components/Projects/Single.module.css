@@ -90,3 +90,24 @@
     opacity: 1;
   }
 }
+
+@media (max-width: 767px) {
+  .singleTitle {
+    font-size: 28px;
+  }
+
+  .singlecontent {
+    font-size: 1.4rem;
+    color: #fff;
+    line-height: 1.2;
+  }
+
+  .closeSingleBtn {
+    left: 90%;
+    font-size: 30px;
+  }
+
+  .gotoproject a {
+    font-size: 16px;
+  }
+}

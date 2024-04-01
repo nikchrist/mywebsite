@@ -58,14 +58,7 @@ function Projects() {
   return (
     <div>
       <Title>Projects</Title>
-      <div
-        style={{
-          width: "90%",
-          height: "auto",
-          position: "relative",
-          margin: " 0 auto",
-        }}
-      >
+      <div className={styles.projectsPageWrapper}>
         <ProjectList
           projects={projects}
           type={type}

@@ -3,9 +3,8 @@
   width: 50%;
   margin: 0px auto;
   display: grid;
-  grid-template-columns:
-    minmax(50px, 25%) minmax(50px, 25%) minmax(50px, 25%)
-    minmax(50px, 25%);
+  /* grid-template-columns: minmax(50px, 25%) minmax(50px, 25%) minmax(50px, 25%); */
+  grid-template-columns: auto auto auto;
   align-items: center;
   justify-content: center;
 }
@@ -31,4 +30,12 @@
   color: #fff;
   transform: scale(1.1, 1.1);
   border: 0;
+}
+
+@media (max-width: 767px) {
+  .btnFilterNav {
+    font-size: 2svw;
+    word-wrap: break-word;
+    width: 20svw;
+  }
 }

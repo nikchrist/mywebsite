@@ -15,16 +15,15 @@
 @media (max-width: 767px) {
   .projectsWrapper {
     width: 100%;
+    grid-template-columns: auto;
   }
   .projectWrapper {
     position: relative;
     width: 100%;
-    margin-right: 0px;
-    margin-bottom: 10px;
-    text-align: justify;
   }
   .projectWrapper img {
     position: relative;
-    width: 100vw;
+    width: 90vw;
+    margin: 0 auto;
   }
 }
