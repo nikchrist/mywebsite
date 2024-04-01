@@ -202,3 +202,27 @@
   pointer-events: none;
   opacity: 0.5 !important;
 }
+
+.stepstitles {
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 767px) {
+  .stepstitles {
+    font-size: 28px;
+  }
+
+  .formgridItem label {
+    font-size: 15px;
+  }
+
+  .buttons button {
+    font-size: 16px;
+  }
+
+  .submitbtn {
+    width: 100%;
+  }
+}

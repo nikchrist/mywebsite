@@ -89,15 +89,7 @@ function ContactForm() {
               state.step === 1 ? styles.show : styles.hide
             }`}
           >
-            <span
-              style={{
-                fontSize: "60px",
-                fontWeight: "bold",
-                marginBottom: "20px",
-              }}
-            >
-              BHMA1
-            </span>
+            <span className={styles.stepstitles}>BHMA1</span>
             <label htmlFor="fullname">Εισάγετε εδώ το Ονοματεπώνυμο σας</label>
             <input
               type="text"
@@ -128,15 +120,7 @@ function ContactForm() {
               state.step === initialState.step + 1 ? styles.show : styles.hide
             }`}
           >
-            <span
-              style={{
-                fontSize: "60px",
-                fontWeight: "bold",
-                marginBottom: "20px",
-              }}
-            >
-              BHMA 2
-            </span>
+            <span className={styles.stepstitles}>BHMA 2</span>
             <label htmlFor="email">
               Εδώ μπορείτε να εισάγετε το επαγγελματικό ή και το προσωπικό σας
               Email
@@ -172,15 +156,7 @@ function ContactForm() {
               state.step === initialState.step + 2 ? styles.show : styles.hide
             }`}
           >
-            <span
-              style={{
-                fontSize: "60px",
-                fontWeight: "bold",
-                marginBottom: "20px",
-              }}
-            >
-              BHMA 3
-            </span>
+            <span className={styles.stepstitles}>BHMA 3</span>
             <div className={styles.formItemText}></div>
             <label htmlFor="company">
               Εάν επικοινωνείτε εκ μέρους κάποιας εταιρία παρακαλώ εισάγετε την
@@ -215,15 +191,7 @@ function ContactForm() {
               state.step === initialState.step + 3 ? styles.show : styles.hide
             }`}
           >
-            <span
-              style={{
-                fontSize: "60px",
-                fontWeight: "bold",
-                marginBottom: "20px",
-              }}
-            >
-              BHMA 4
-            </span>
+            <span className={styles.stepstitles}>BHMA 4</span>
             <label htmlFor="message">
               Παρακάτω μπορείτε να γράψετε το μήνυμα σας.Θα σας ακούσω με
               προσοχή και θα λάβετε άμεση απάντηση.
@@ -252,15 +220,7 @@ function ContactForm() {
               state.step === initialState.step + 4 ? styles.show : styles.hide
             }`}
           >
-            <span
-              style={{
-                fontSize: "60px",
-                fontWeight: "bold",
-                marginBottom: "20px",
-              }}
-            >
-              BHMA 5
-            </span>
+            <span className={styles.stepstitles}>BHMA 5</span>
             <button
               type="button"
               id="submit"

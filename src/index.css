@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
   font-family: "Manrope";
   src: local("Manrope-Light"),
     url("https://nikchristwebsite.netlify.app/fonts/Manrope-Light.ttf")
@@ -10,9 +10,9 @@
   src: local("Cormorant-Light"),
     url("https://nikchristwebsite.netlify.app/fonts/Cormorant-Light.ttf")
       format("truetype");
-}
+} */
 
-/* @font-face {
+@font-face {
   font-family: "Manrope";
   src: local("Manrope-Light"),
     url("./fonts/Manrope-Light.ttf") format("truetype");
@@ -22,7 +22,7 @@
   font-family: "Cormorant";
   src: local("Cormorant-Light"),
     url("./fonts/Cormorant-Light.ttf") format("truetype");
-} */
+}
 
 * {
   font-family: "Manrope";
@@ -188,6 +188,17 @@ a {
   animation-delay: 0.4s;
 }
 
+.socialIconsWrapper {
+  margin: 3vh 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.footerBar {
+  background: #658299;
+}
+
 @keyframes rotate {
   0% {
     transform: translate(-50%, -50%) rotateZ(0deg);
@@ -248,14 +259,14 @@ a {
   html,
   body {
     overflow-y: scroll;
-    width: 100%;
+    width: 100vw;
   }
 
   header {
     height: auto;
   }
   .pagetitles {
-    font-size: 20px;
+    font-size: 28px;
   }
 
   footer {

@@ -8,6 +8,7 @@ const Images = {
     "./hellenicsubmarineassociation.webp",
     import.meta.url
   ).href,
+  virsa: new URL("./virsa.webp", import.meta.url).href,
 };
 
 export default Images;

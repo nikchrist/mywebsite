@@ -125,10 +125,6 @@ section.skills {
 }
 
 @media (max-width: 767px) {
-  section.skills {
-    display: block;
-  }
-
   .shortbio {
     padding: 20px;
   }
@@ -140,5 +136,11 @@ section.skills {
 
   .pagetitlesWrapper h2 {
     font-size: 32px;
+  }
+}
+
+@media (max-width: 1373px) {
+  .skills {
+    grid-template-columns: auto !important;
   }
 }

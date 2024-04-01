@@ -11,6 +11,7 @@ import { loadSlim } from "tsparticles-slim";
 import Footer from "./components/Footer";
 import Single from "./components/Projects/Single";
 import MobileMainNav from "./components/Navigations/MobileMainNav";
+import { SocialIcon } from "react-social-icons";
 function App() {
   const particlesInit = useCallback(async function (engine) {
     console.log(engine);
@@ -107,6 +108,13 @@ function App() {
             <MainNav />
           </DefaultDevice>
           <DefaultDevice>
+            <div className="socialIconsWrapper">
+              <SocialIcon url="https://www.facebook.com/nikos.christomanos" />
+              <SocialIcon url="https://www.linkedin.com/in/nikos-christomanos-developer/" />
+              <SocialIcon url="https://github.com/nikchrist" />
+            </div>
+          </DefaultDevice>
+          <DefaultDevice>
             <Footer />
           </DefaultDevice>
         </header>
@@ -121,7 +129,14 @@ function App() {
           </Routes>
         </div>
         <Mobile>
-          <Footer backColor={"#658299"} margTop={"0"} />
+          <div className="footerBar">
+            <Footer margTop={"0"} />
+            <div className="socialIconsWrapper">
+              <SocialIcon url="https://www.facebook.com/nikos.christomanos" />
+              <SocialIcon url="https://www.linkedin.com/in/nikos-christomanos-developer/" />
+              <SocialIcon url="https://github.com/nikchrist" />
+            </div>
+          </div>
         </Mobile>
       </main>
     </BrowserRouter>

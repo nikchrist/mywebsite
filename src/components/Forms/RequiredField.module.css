@@ -1,9 +1,9 @@
-.ctnsubtitle {
-  text-align: center;
+.requiredtext {
+  font-size: 21px;
 }
 
 @media (max-width: 767px) {
-  .ctnsubtitle {
+  .requiredtext {
     font-size: 14px;
   }
 }

@@ -43,6 +43,16 @@ function Projects() {
       url: "https://hellenicsubmarinersassociation.gr/",
       image: Images.hellenicsubmarinersassociation,
     },
+    {
+      id: "virsa",
+      title: "Virsa - Handmade bags & Accessories",
+      content:
+        "Η «Βύρσα» είναι ένα εργαστήριο δερμάτινων ειδών (Est. 1983) που δραστηριοποιείται στο χώρο της παραγωγής τσαντών, σύμφωνα με τις σύγχρονες επιταγές της μόδας, άνεσης και ποιότητας.Ηλεκτρονικό κατάστημα κατασκευασμένο με Wordress + Woocommerce",
+      excerpt: "Ιστοσελίδα κατασκευασμένη με Wordpress + Woocommerce",
+      category: "wordpress",
+      url: "https://virsa.gr/",
+      image: Images.virsa,
+    },
   ];
 
   return (
