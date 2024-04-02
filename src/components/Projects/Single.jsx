@@ -4,8 +4,7 @@ import styles from "./Single.module.css";
 function Single({ projects, setInfoOpen }) {
   let { name } = useParams();
   const filteredProject = projects.filter((project) => project.id === name)[0];
-
-  const { title, category, image, content, url } = filteredProject;
+  const { title, image, content, url } = filteredProject;
   return (
     <React.Fragment>
       <div className={styles.singleWrapper}>
@@ -23,10 +22,6 @@ function Single({ projects, setInfoOpen }) {
           <img src={image} alt={title} />
         </div>
         <div className={styles.singlecontentWrapper}>
-          <span style={{ color: "#fff" }}>Cat: </span>
-          <NavLink to={category} target="_blank" style={{ color: "#fff" }}>
-            {category}
-          </NavLink>
           <div className={styles.singlecontent}>{content}</div>
         </div>
         <div className={styles.gotoproject}>
