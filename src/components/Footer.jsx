@@ -10,7 +10,7 @@ function Footer({ backColor, margTop }) {
         }}
       >
         <p style={{ color: "#fff" }}>
-          <span style={{ marginRight: "5px" }}>&copy; Copyright</span>
+          <span style={{ marginRight: "5px" }}>&copy; Created By </span>
           <NavLink to="/" style={{ color: "#A8C6DE" }}>
             Nikos Christomanos
           </NavLink>

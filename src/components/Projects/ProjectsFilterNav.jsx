@@ -45,6 +45,18 @@ function ProjectsFilterNav({ setCurrentPrjCat, currentPrjCat, type }) {
         >
           OPENCART
         </button>
+        <button
+          className={`${styles.btnFilterNav} ${
+            currentPrjCat === "react" && type === "react" ? styles.active : ""
+          }`}
+          id="react"
+          onClick={(e) => {
+            setCurrentPrjCat(e.target.id);
+            navigate("/projects/" + e.target.id);
+          }}
+        >
+          REACT
+        </button>
       </div>
     </div>
   );

@@ -53,6 +53,16 @@ function Projects() {
       url: "https://virsa.gr/",
       image: Images.virsa,
     },
+    {
+      id: "pokedex",
+      title: "My Pokedex",
+      content:
+        "Ένα από τα πρώτα μου project κατασκευασμένο με την React βιβλιοθήκη της javascript.Τα δεδομένα αντλούνται από τον ιστότοπο https://pokeapi.co/",
+      excerpt: "Ιστοσελίδα κατασκευασμένη με React Js",
+      category: "react",
+      url: "https://nikpokemons.netlify.app/",
+      image: Images.pokedex,
+    },
   ];
 
   return (
