@@ -63,6 +63,57 @@ function Projects() {
       url: "https://nikpokemons.netlify.app/",
       image: Images.pokedex,
     },
+    {
+      id: "arcobaleno",
+      title: "Arco Baleno",
+      content:
+        "Το  ARCO-BALENO είναι κατάσημα ρούχων που βρίσκεται στις Σέρρες.Το ηλεκτρονικό κατάστημα δημιουργήθηκ με το πρόσθετο Woocommerce του Wordpress CMS(Content Managment System)",
+      excerpt:
+        "Eshop κατασκευασμένο με  το Wooocommerce πρόθετο του Wordpress CMS",
+      category: "wordpress",
+      url: "https://arco-baleno.gr/",
+      image: Images.arcobaleno,
+    },
+    {
+      id: "atlasgroup",
+      title: "Atlas Group",
+      content:
+        "Η Atlas Group δραστηριοποιείται στον χώρο των τροφίμων με υψηλή εξειδίκευση στο ελαιόλαδο, στο ηλιέλαιο,τη ζάχαρη,το αλεύρι και τη βρώσιμη ελιά.",
+      excerpt: "Ιστοσελίδα κατασκευασμένη με  το Wordpress CMS",
+      category: "wordpress",
+      url: "https://atlasgroup.gr/",
+      image: Images.atlasgroup,
+    },
+    {
+      id: "mecon",
+      title: "ME-CON",
+      content:
+        "Εταιρία που ασχολείτε με την θέρμανση, τις ανακαινίσεις και τα φωτοβολταϊκά",
+      excerpt: "Ιστοσελίδα κατασκευασμένη με  το Wordpress CMS",
+      category: "wordpress",
+      url: "https://me-con.gr/",
+      image: Images.mecon,
+    },
+    {
+      id: "nektarmeteoron",
+      title: "Nektar Meteoron",
+      content: "Εταιρία παραγωγής και πώλησης προϊόντων από μέλι",
+      excerpt:
+        "Eshop κατασκευασμένο με  το Wooocommerce πρόθετο του Wordpress CMS",
+      category: "wordpress",
+      url: "https://nektarmeteoron.gr/",
+      image: Images.nektarmeteoron,
+    },
+    {
+      id: "perfectwedding",
+      title: "Perfect Wedding",
+      content: "Κατάστημα πώλησης προϊ'οντων γάμου αλλά και βαφτίσεων",
+      excerpt:
+        "Eshop κατασκευασμένο με  το Wooocommerce πρόθετο του Wordpress CMS",
+      category: "wordpress",
+      url: "https://perfectwedding.gr/",
+      image: Images.perfectwedding,
+    },
   ];
 
   return (
